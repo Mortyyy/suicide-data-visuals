@@ -84,6 +84,7 @@ p{
     padding:8px 10px;
     text-align: left;
     width:220px;
+    font-family:century gothic;
     font-size: 12px;
     opacity: .7;
     background-color: var(--descriptionBG);
@@ -101,7 +102,7 @@ p{
 #links {
     position:fixed;
     z-index:2;
-    margin-top:1000px;
+    margin-top:300px;
     margin-left:90px;
 }
 
