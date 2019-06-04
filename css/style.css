@@ -18,7 +18,7 @@
 }
 
 *{
-    font-family: century gothic;
+    font-family: helvetica;
     font-size: 14px;
     letter-spacing: 1px;
     margin-bottom: 5px;
@@ -62,21 +62,6 @@ h3{
   font-weight: bold;
 }
 
-/*Settings for the logo on the landing page. */
-img.resizeLogo {
-  max-width: 75%;
-  max-height: 75%;
-  margin:auto;
-}
-
-/*Formats images to be centered and small for project pages. */
-img.resizeFigures {
-  width: 25%;
-  height: 25%;
-  margin: auto;
-  float: right;
-}
-
 p{
   text-align: justify;
 }
@@ -99,7 +84,6 @@ p{
     padding:8px 10px;
     text-align: left;
     width:220px;
-    font-family:century gothic;
     font-size: 12px;
     opacity: .7;
     background-color: var(--descriptionBG);
@@ -117,7 +101,7 @@ p{
 #links {
     position:fixed;
     z-index:2;
-    margin-top:300px;
+    margin-top:1000px;
     margin-left:90px;
 }
 
