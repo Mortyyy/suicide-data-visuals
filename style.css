@@ -1,0 +1,182 @@
+/*Author: Alex */
+
+/* Variables for colors. */
+:root {
+    --bgColor: #FFFfff;
+    --descriptionBG: #FFFfff;
+    --entryBorder: #cccccc;
+    --entryColor: #FFFfff;
+    --linkColor: #0c7307;
+    --linkHover: #0c7307;
+    --sidebarBorder: #aaaaaa;
+    --sidebarColor: #202020;
+    --sidebarLink: #d8d6d7;
+    --sidebar-linkBG: #000000;
+    --sidebarLinkBorder:#0c7307;
+    --textColor: #000000;
+    --titleColor: #ffffff;
+}
+
+*{
+    font-family: century gothic;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+/* Link formatting */
+a {
+    color: var(--linkColor);
+    text-decoration: none;
+    letter-spacing:1px;
+}
+
+a:hover {
+    font-weight: bold;
+    color: var(--linkHover);
+}
+
+body {
+    letter-spacing: 0.5px;
+    background-color: var(--bgColor)
+    color: var(--textColor);
+}
+
+footer{
+  text-align: center;
+}
+
+h1{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+h3{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/*Settings for the logo on the landing page. */
+img.resizeLogo {
+  max-width: 75%;
+  max-height: 75%;
+  margin:auto;
+}
+
+/*Formats images to be centered and small for project pages. */
+img.resizeFigures {
+  width: 25%;
+  height: 25%;
+  margin: auto;
+  float: right;
+}
+
+p{
+  text-align: justify;
+}
+
+/*HTML5 no longer supports center tag, this is to address this. */
+#center{
+  text-align: center;
+}
+
+#content{
+  margin-top:30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20cm;
+  font-size: 20px;
+}
+
+#description {
+    margin-top:10px;
+    padding:8px 10px;
+    text-align: left;
+    width:220px;
+    font-family:century gothic;
+    font-size: 12px;
+    opacity: .7;
+    background-color: var(--descriptionBG);
+}
+
+#entries{
+    width: 700px;
+    padding:10px;
+    text-align:justify;
+    margin-bottom:25px;
+    background-color: var(--entriesColor);
+    border:1px solid var(--entryBorder);
+}
+
+#links {
+    position:fixed;
+    z-index:2;
+    margin-top:300px;
+    margin-left:90px;
+}
+
+#links a {
+    display: block;
+    width:70px;
+    margin-bottom:5px;
+    line-height:15px;
+    font-size:14px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing:1px;
+    color: var(--sidebarLink);
+    background-color: var(--sidebarLinkBG);
+    border:2px solid var(--sidebarLinkBorder);
+    padding: 3px;
+}
+
+#links a:hover {
+    font-weight: bold;
+    font-style: italic;
+}
+
+#posts {
+    margin-top:30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15cm;
+    letter-spacing: 0px;
+}
+
+#side {
+    position:fixed;
+    top:0px;
+    left:0px;
+    height:100%;
+    width:260px;
+    overflow:hidden;
+    border-right:8px solid var(--sidebarBorder);
+    border-left: 8px solid var(--sidebarBorder);
+    background-color: var(--sidebarColor);
+}
+
+#sidebar {
+    margin-right:10px;
+    margin-top:20px;
+    float:right;
+}
+
+#title {
+    width:240px;
+    text-align: center;
+    font-size: 2em;    /*The “em” is a scalable unit that is used in web document media. An em is equal to the current font-size. */
+    font-weight: bold;
+    color: var(--titleColor);
+}
+
+#title:hover {
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 2px 2px var(--linkColor);
+}
