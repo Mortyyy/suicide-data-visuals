@@ -139,7 +139,7 @@ p{
     top:0px;
     left:0px;
     height:100%;
-    width:260px;
+    width:20%;
     overflow:hidden;
     border-right:8px solid var(--sidebarBorder);
     border-left: 8px solid var(--sidebarBorder);
