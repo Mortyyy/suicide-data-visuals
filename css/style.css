@@ -148,7 +148,7 @@ p{
 #sidebar {
     margin-right: auto;
     margin-top:20px;
-    float: none;
+    text-align: center;
 }
 
 #title {
