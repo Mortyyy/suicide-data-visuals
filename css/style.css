@@ -147,13 +147,13 @@ p{
 }
 
 #sidebar {
-    margin-right:10px;
+    margin-right: auto;
     margin-top:20px;
     float:right;
 }
 
 #title {
-    width:240px;
+    width:15%;
     text-align: center;
     font-family: helvetica;
     font-size: 2em;    /*The “em” is a scalable unit that is used in web document media. An em is equal to the current font-size. */
