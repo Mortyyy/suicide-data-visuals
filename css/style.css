@@ -108,7 +108,7 @@ display:inline-block;
 #links {
     position:fixed;
     z-index:2;
-    margin-left:90px;
+    margin: auto;
 }
 
 #links a {
