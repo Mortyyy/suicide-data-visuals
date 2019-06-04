@@ -38,7 +38,7 @@ a:hover {
 }
 
 body {
-    letter-spacing: 0.5px;
+    letter-spacing: 0.2px;
     background-color: var(--bgColor)
     color: var(--textColor);
 }
