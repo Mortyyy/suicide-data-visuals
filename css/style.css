@@ -66,6 +66,11 @@ p{
   text-align: left;
 }
 
+#button1 , #button2 {
+display:inline-block;
+/**other codes**/
+}
+
 /*HTML5 no longer supports center tag, this is to address this. */
 #center{
   text-align: center;
