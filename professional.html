@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html lang = "en">
 
+<head>
+  <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/> <!-- Enables proper scaling -->
+  <meta name="keywords" content="suicide, data visualization">
+  <meta name="description" content="This is an online program designed to help users visualize data about suicide.">
+  <title>[PROGRAM NAME]</title>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
 <!-- EXAMPLE DATA -->
 <style>
 svg {
@@ -45,18 +56,6 @@ rect:first-child {
 fill: #1f77b4;
 }
 </style>
-
-
-<head>
-  <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/> <!-- Enables proper scaling -->
-  <meta name="keywords" content="suicide, data visualization">
-  <meta name="description" content="This is an online program designed to help users visualize data about suicide.">
-  <title>[PROGRAM NAME]</title>
-
-  <link rel="stylesheet" href="css/style.css">
-</head>
 
 <body>
 
@@ -220,5 +219,5 @@ d3.csv("population.csv", function(error, data) {
       </footer>
     </div>
 
-</body>
+  </body>
 </html>
