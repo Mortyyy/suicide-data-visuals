@@ -154,8 +154,9 @@ p{
 
 #title {
     width:15%;
+    margin: auto;
     text-align: center;
-    font-family: helvetica;
+    font-family: century gothic;
     font-size: 2em;    /*The “em” is a scalable unit that is used in web document media. An em is equal to the current font-size. */
     font-weight: bold;
     color: var(--titleColor);
